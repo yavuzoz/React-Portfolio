@@ -9,15 +9,15 @@ import avatar from "../images/ene2.jpg";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
-    width: theme.spacing(50),
-    height: theme.spacing(50),
+    width: theme.spacing(40),
+    height: theme.spacing(40),
     margin: theme.spacing(1),
   },
   title: {
-    color: "white",
+    color: "black",
   },
   subtitle: {
-    color: "black",
+    color: "white",
     textTransform: "uppercase",
   },
   typedContainer: {

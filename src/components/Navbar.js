@@ -24,7 +24,7 @@ import Footer from "../components/Footer";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
-    background: "tan",
+    background: "#021",
     display: "flex",
     justifyContent: "space-between",
     margin: 0,
@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuSliderContainer: {
     width: 250,
-    background: "#511",
+    background: "#153",
     height: "100%",
   },
   avatar: {
