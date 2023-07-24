@@ -18,7 +18,7 @@ import Home from "@material-ui/icons/Home";
 import Apps from "@material-ui/icons/Apps";
 import ContactMail from "@material-ui/icons/ContactMail";
 import { makeStyles } from "@material-ui/core/styles";
-import avatar from "../67596512.jpeg";
+import avatar from "../images/ene.jpg";
 
 import Footer from "../components/Footer";
 
@@ -43,8 +43,8 @@ const useStyles = makeStyles((theme) => ({
   avatar: {
     display: "block",
     margin: "0.5rem auto",
-    width: theme.spacing(13),
-    height: theme.spacing(13),
+    width: theme.spacing(23),
+    height: theme.spacing(23),
   },
   listItem: {
     color: "tan",

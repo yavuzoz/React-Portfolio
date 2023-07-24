@@ -5,19 +5,19 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/core/styles";
-import avatar from "../67596512.jpeg";
+import avatar from "../images/ene2.jpg";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
-    width: theme.spacing(30),
-    height: theme.spacing(30),
+    width: theme.spacing(50),
+    height: theme.spacing(50),
     margin: theme.spacing(1),
   },
   title: {
-    color: "tan",
+    color: "white",
   },
   subtitle: {
-    color: "tan",
+    color: "black",
     textTransform: "uppercase",
   },
   typedContainer: {
@@ -40,7 +40,7 @@ const Header = () => {
         <Avatar className={classes.avatar} src={avatar} alt="Yavuz Özbay" />
       </Grid>
       <Typography className={classes.title} variant="h4">
-        <Typed strings={["Yavuz Özbay"]} typeSpeed={40} />
+        <Typed strings={["Yavuz Özbay"]} typeSpeed={50} />
       </Typography>
 
       <Typography className={classes.subtitle} variant="h5">
